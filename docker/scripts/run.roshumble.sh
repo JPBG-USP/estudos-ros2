@@ -8,7 +8,7 @@ if [[ $PWD = *estudos-ros2 ]]; then
     #                             --user    (Setando qual usuário do container vc vai usar)
     #        --network=host e --ipc=host    (Pra ter acesso a internet)
     #               -v /dev/dri:/dev/dri    (Nesse caso to dando acesso a todas as pastas de driver, assim ele tem acesso ao driver de video do meu PC)
-    #    -v $PWD/ros_ws:/home/ros/ros_ws    (Pra ter acesso a pasta de ROS do robo)
+    #    -v $PWD/ros_ws:/home/ros/ros_ws    (Pra ter acesso a pasta de ROS)
     #                -e DISPLAY=$DISPLAY    (Setando pra aparecer no display que estamos usando atualmente)
     #              estudos-ros2:roshumble    (A imagem docker que queremos)
 
