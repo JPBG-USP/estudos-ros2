@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.000926] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.100133] (-) TimerEvent: {}
+[0.200573] (-) TimerEvent: {}
+[0.300819] (-) TimerEvent: {}
+[0.401168] (-) TimerEvent: {}
+[0.433187] (my_first_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_package', 'build', '--build-base', '/home/ros/ros2_ws/build/my_first_package/build', 'install', '--record', '/home/ros/ros2_ws/build/my_first_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros/ros2_ws/src/my_first_package', 'env': {'HOSTNAME': 'joao', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ros/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ros/ros2_ws/install/my_first_package:/opt/ros/humble', 'PWD': '/home/ros/ros2_ws/build/my_first_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ros2_ws/build/my_first_package/prefix_override:/home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.501350] (-) TimerEvent: {}
+[0.583173] (my_first_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.583510] (my_first_package) StdoutLine: {'line': b'writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO\n'}
+[0.583610] (my_first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt\n'}
+[0.583681] (my_first_package) StdoutLine: {'line': b'writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt\n'}
+[0.583750] (my_first_package) StdoutLine: {'line': b'writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt\n'}
+[0.583796] (my_first_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt\n'}
+[0.584940] (my_first_package) StdoutLine: {'line': b"reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'\n"}
+[0.585600] (my_first_package) StdoutLine: {'line': b"writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'\n"}
+[0.585686] (my_first_package) StdoutLine: {'line': b'running build\n'}
+[0.585736] (my_first_package) StdoutLine: {'line': b'running build_py\n'}
+[0.585799] (my_first_package) StdoutLine: {'line': b'copying my_first_package/my_first_node.py -> /home/ros/ros2_ws/build/my_first_package/build/lib/my_first_package\n'}
+[0.585866] (my_first_package) StdoutLine: {'line': b'running install\n'}
+[0.586038] (my_first_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.586530] (my_first_package) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/my_first_package/build/lib/my_first_package/my_first_node.py -> /home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package\n'}
+[0.586815] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[0.587021] (my_first_package) StdoutLine: {'line': b'running install_data\n'}
+[0.587305] (my_first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.588464] (my_first_package) StdoutLine: {'line': b"removing '/home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.588678] (my_first_package) StdoutLine: {'line': b'Copying ../../build/my_first_package/my_first_package.egg-info to /home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info\n'}
+[0.589516] (my_first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.601456] (-) TimerEvent: {}
+[0.603994] (my_first_package) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/my_first_package/install.log'\n"}
+[0.619208] (my_first_package) CommandEnded: {'returncode': 0}
+[0.646575] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 0}
+[0.647128] (-) EventReactorShutdown: {}
