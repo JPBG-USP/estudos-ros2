@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.000383] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.099711] (-) TimerEvent: {}
+[0.200104] (-) TimerEvent: {}
+[0.300365] (-) TimerEvent: {}
+[0.394100] (my_first_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros/ros2_ws/build/my_first_package/build', '--no-deps', 'install_data'], 'cwd': '/home/ros/ros2_ws/build/my_first_package', 'env': {'HOSTNAME': 'jpbg', 'GIT_ASKPASS': '/home/ros/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ros/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh', 'HOME': '/home/ros', 'OLDPWD': '/home/ros', 'TERM_PROGRAM_VERSION': '1.87.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-237ff85b-bf63-46c1-bc8e-6f4ddd346a06.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/ros/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a59adf3e-f871-4c45-89db-0a43074919d8.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-a59adf3e-f871-4c45-89db-0a43074919d8.sock","/tmp/.X11-unix/X1","/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ee7a4865e0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-a59adf3e-f871-4c45-89db-0a43074919d8.sock', 'AMENT_PREFIX_PATH': '/home/ros/ros2_ws/install/my_first_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X1', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros/ros2_ws/build/my_first_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ros2_ws/build/my_first_package/prefix_override:/home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.400472] (-) TimerEvent: {}
+[0.500700] (-) TimerEvent: {}
+[0.532589] (my_first_package) StdoutLine: {'line': b'running develop\n'}
+[0.597860] (my_first_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.597994] (my_first_package) StdoutLine: {'line': b'writing my_first_package.egg-info/PKG-INFO\n'}
+[0.598139] (my_first_package) StdoutLine: {'line': b'writing dependency_links to my_first_package.egg-info/dependency_links.txt\n'}
+[0.598217] (my_first_package) StdoutLine: {'line': b'writing entry points to my_first_package.egg-info/entry_points.txt\n'}
+[0.598255] (my_first_package) StdoutLine: {'line': b'writing requirements to my_first_package.egg-info/requires.txt\n'}
+[0.598289] (my_first_package) StdoutLine: {'line': b'writing top-level names to my_first_package.egg-info/top_level.txt\n'}
+[0.599219] (my_first_package) StdoutLine: {'line': b"reading manifest file 'my_first_package.egg-info/SOURCES.txt'\n"}
+[0.599631] (my_first_package) StdoutLine: {'line': b"writing manifest file 'my_first_package.egg-info/SOURCES.txt'\n"}
+[0.600428] (my_first_package) StdoutLine: {'line': b'running build_ext\n'}
+[0.600573] (my_first_package) StdoutLine: {'line': b'Creating /home/ros/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my-first-package.egg-link (link to .)\n'}
+[0.600756] (-) TimerEvent: {}
+[0.601087] (my_first_package) StdoutLine: {'line': b'Installing my_first_node script to /home/ros/ros2_ws/install/my_first_package/lib/my_first_package\n'}
+[0.601260] (my_first_package) StdoutLine: {'line': b'\n'}
+[0.601347] (my_first_package) StdoutLine: {'line': b'Installed /home/ros/ros2_ws/build/my_first_package\n'}
+[0.601421] (my_first_package) StdoutLine: {'line': b'running install_data\n'}
+[0.620559] (my_first_package) CommandEnded: {'returncode': 0}
+[0.654128] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 0}
+[0.654668] (-) EventReactorShutdown: {}

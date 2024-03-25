@@ -18,6 +18,7 @@ if [[ $PWD = *estudos-ros2 ]]; then
     --ipc=host \
     -v /dev/dri:/dev/dri \
     -v $PWD/ros2_ws:/home/ros/ros2_ws \
+    -v $PWD/ros2_desktop:/home/ros/ros2_desktop \
     -e DISPLAY=$DISPLAY \
     estudos-ros2:roshumble
 
