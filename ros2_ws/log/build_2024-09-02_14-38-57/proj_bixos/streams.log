@@ -1,0 +1,23 @@
+[0.515s] Invoking command in '/home/ros/ros2_ws/build/proj_bixos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/proj_bixos -- -j12 -l12
+[1.743s] Invoked command in '/home/ros/ros2_ws/build/proj_bixos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/proj_bixos -- -j12 -l12
+[1.810s] Invoking command in '/home/ros/ros2_ws/build/proj_bixos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/proj_bixos
+[1.836s] -- Install configuration: ""
+[1.876s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/lib/proj_bixos/data_collection_node.py
+[1.876s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/lib/proj_bixos/cam_collection_node.py
+[1.876s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/lib/proj_bixos/overlay_test.py
+[1.877s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/ament_index/resource_index/package_run_dependencies/proj_bixos
+[1.877s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/ament_index/resource_index/parent_prefix_path/proj_bixos
+[1.878s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/environment/ament_prefix_path.sh
+[1.878s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/environment/ament_prefix_path.dsv
+[1.878s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/environment/path.sh
+[1.878s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/environment/path.dsv
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/local_setup.bash
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/local_setup.sh
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/local_setup.zsh
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/local_setup.dsv
+[1.879s] -- Installing: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/package.dsv
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/ament_index/resource_index/packages/proj_bixos
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/cmake/proj_bixosConfig.cmake
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/cmake/proj_bixosConfig-version.cmake
+[1.879s] -- Up-to-date: /home/ros/ros2_ws/install/proj_bixos/share/proj_bixos/package.xml
+[1.883s] Invoked command in '/home/ros/ros2_ws/build/proj_bixos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/proj_bixos

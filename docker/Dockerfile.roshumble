@@ -3,32 +3,35 @@ FROM osrf/ros:humble-desktop-full
 # Setando usuário no container
 ARG USERNAME=ros
 ARG USER_UID=1000
-ARG USER_GID=$USER_UID
+ARG USER_GID=1000
 
 # Configurando o usuário para ser um non-root
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
     && mkdir /home/$USERNAME/.config && chown $USER_UID:$USER_GID /home/$USERNAME/.config
 
-# Setando sudo
-RUN apt-get update \
-    && apt-get install -y sudo \
+# Setando sudo e instalando softwares
+RUN apt-get update && apt-get install -y \
+    sudo \
+    rviz \
+    python3 python3-pip \
+    python3-opencv \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME \
     && rm -rf /var/lib/apt/lists/*
 
-# Installing Softwares
-RUN apt-get update \
-    && apt-get install -y rviz\
-    && rm -rf /var/lib/apt/lists/*
-
-RUN apt-get update \
-    && apt-get install -y python3 python3-pip \
-    && rm -rf /var/lib/apt/lists/*
+# Instalando setuptools específico
 RUN pip3 install setuptools==58.2.0
+
+# Instalando pacotes ros
+RUN apt install ros-humble-cv-bridge ros-humble-image-transport
+
 
 # Configurando o entrypoint script e bashrc
 COPY config/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 COPY config/bashrc /home/${USERNAME}/.bashrc
+RUN chown ${USERNAME}:${USERNAME} /home/${USERNAME}/.bashrc
+
 ENTRYPOINT [ "/bin/bash", "/entrypoint.sh" ]
 CMD [ "bash" ]

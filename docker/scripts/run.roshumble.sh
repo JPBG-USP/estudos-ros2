@@ -16,6 +16,8 @@ if [[ $PWD = *estudos-ros2 ]]; then
     --user ros \
     --network=host \
     --ipc=host \
+    --device /dev/video0:/dev/video0 \
+    -v /dev/video0:/dev/video0 \
     -v /dev/dri:/dev/dri \
     -v $PWD/ros2_ws:/home/ros/ros2_ws \
     -v $PWD/ros2_desktop:/home/ros/ros2_desktop \

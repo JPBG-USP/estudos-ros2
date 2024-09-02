@@ -17,6 +17,7 @@ class MyNode(Node):
         second_str = str(self.seconds_active)
         self.get_logger().info(nodeName + " active " + second_str + " seconds ago.")
         self.seconds_active += info_active_timer
+    
 
 def main(args=None):
     rclpy.init(args=args) # Iniciando o nó em ROS2

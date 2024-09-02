@@ -1,0 +1,4 @@
+source;share/proj_bixos/local_setup.bash
+source;share/proj_bixos/local_setup.dsv
+source;share/proj_bixos/local_setup.sh
+source;share/proj_bixos/local_setup.zsh
